@@ -1,0 +1,98 @@
+.catalogo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 70px 70px 0 0;
+}
+.catalogo .catalogo-titulo {
+  margin: 30px 0 80px 0;
+}
+.catalogo .catalogo-titulo p:first-of-type {
+  opacity: 0.5;
+  font-weight: 100;
+  font-size: 30px;
+  font-weight: 400;
+}
+.catalogo .catalogo-titulo p {
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+  line-height: 35px;
+}
+.catalogo .catalogo-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.catalogo .catalogo-container .card-catalogo {
+  width: 320px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px;
+  margin: 15px 0;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3137254902);
+  border-radius: 10px;
+}
+.catalogo .catalogo-container .card-catalogo .card-img {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.catalogo .catalogo-container .card-catalogo .card-img img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.catalogo .catalogo-container .card-catalogo .card-descritivo {
+  padding: 5px;
+  text-align: center;
+}
+.catalogo .catalogo-container .card-catalogo .card-descritivo h2 {
+  line-height: 25px;
+  opacity: 0.5;
+}
+.catalogo .catalogo-container .card-catalogo .card-descritivo h3 {
+  margin: 10px 0;
+  color: #4189ee;
+}
+.catalogo .catalogo-container .card-catalogo button {
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  color: #fff;
+  background-image: linear-gradient(to right, #2868f3, #00b8f6);
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.catalogo .catalogo-container .card-catalogo button:hover {
+  background-image: linear-gradient(to right, #00b8f6, #00b8f6);
+}
+
+@media (max-width: 1200px) {
+  .catalogo .catalogo-container {
+    width: 100%;
+    justify-content: center;
+  }
+  .catalogo .catalogo-container .card-catalogo {
+    margin: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

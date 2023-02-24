@@ -1,0 +1,62 @@
+.footer-background {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+.footer-background .app-footer {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.footer-background .app-footer .footer-left {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.footer-background .app-footer .footer-left h2 {
+  font-size: 60px;
+  line-height: 55px;
+  opacity: 0.7;
+  font-weight: bold;
+}
+.footer-background .app-footer .footer-left p {
+  opacity: 0.5;
+  margin: 50px 0;
+  font-size: 30px;
+}
+.footer-background .app-footer .footer-left button {
+  height: 60px;
+  width: 300px;
+  border: none;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #28f32b, #00f646);
+  color: #fff;
+  font-weight: 500;
+  font-size: 20px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+.footer-background .app-footer .footer-left button:hover {
+  transform: scale(0.9);
+}
+.footer-background .app-footer .footer-right {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1040px) {
+  .footer-background .app-footer .footer-left {
+    width: 100%;
+  }
+  .footer-background .app-footer .footer-right {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
