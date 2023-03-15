@@ -113,10 +113,11 @@ main .cards .card svg {
   height: 100px;
   fill: #1490f5;
 }
-main .cards .card h3 {
-  color: #1490f5;
-}
 main .cards .card h2 {
+  color: #1490f5;
+  text-align: center;
+}
+main .cards .card h3 {
   opacity: 0.5;
   font-size: 40px;
   margin: 10px;

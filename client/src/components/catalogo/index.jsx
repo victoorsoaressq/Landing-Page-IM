@@ -9,7 +9,7 @@ function AppCatalogo() {
             </div>
             
             <div className='catalogo-titulo'>
-                <p>Confira os imóvies</p>
+                <p>Confira os imóveis</p>
                 <p>Disponiveis no momento</p>
             </div>
 
